@@ -4,11 +4,11 @@
 #define mintemp 0
 int main() {
     for (int i = 10; i > mintemp; i--){
-        float f = (i == 0) ? 0 : (i * 9.0 / 5.0) + 32;
+        float f = (i == 0) ? 0 : (i * 9 / 5) + 32;
         printf("Обратный — по Цельсию: %d, по Фаренгейту: %.f\n", i, f);
     }
-    for (int i = 0; i < maxtemp; i++) {
-        float f = (i == 0) ? 0 : (i * 9.0 / 5.0) + 32;
+        for (int i = 0; i < maxtemp; i++) {
+        float f = (i == 0) ? 0 : (i * 9 / 5) + 32;
         printf("Прямой цикл — по Цельсию: %d, по Фаренгейту: %.f\n", i, f);
 }
 }
